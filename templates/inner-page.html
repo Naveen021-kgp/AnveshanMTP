@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>anveShaN</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="static/img/favicon.png" rel="icon">
+  <link href="static/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="static/vendor/aos/aos.css" rel="stylesheet">
+  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="static/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="static/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Dewi
+  * Updated: Mar 10 2023 with Bootstrap v5.2.3
+  * Template URL: https://bootstrapmade.com/dewi-free-multi-purpose-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-inner-pages">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="/">anveShaN</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="/" class="logo"><img srcstatic/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto " href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Inner Page</h2>
+          <ol>
+            <li><a href="/">Home</a></li>
+            <li>Inner Page</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container" data-aos="fade-up">
+
+        <ul class="nav nav-tabs row d-flex">
+          <li class="nav-item col-3">
+            <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
+              <i class="ri-gps-line"></i>
+              <h4 class="d-none d-lg-block">Solar Energy distribution curve</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
+              <i class="ri-body-scan-line"></i>
+              <h4 class="d-none d-lg-block">Wind Energy distribution curve</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
+              <i class="ri-sun-line"></i>
+              <h4 class="d-none d-lg-block">Wind Velocity at two meters distribution curve</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
+              <i class="ri-store-line"></i>
+              <h4 class="d-none d-lg-block">Wind Velocity at ten meters distribution curve</h4>
+            </a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active show" id="tab-1">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>A distribution plot generated using Python's Seaborn library and a dataset on solar energy.</h3>
+                <!-- <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p> -->
+                <ul>
+                  <li><i class="ri-check-double-line"></i> The Seaborn library in Python can be used to quickly generate distribution plots of complex datasets.</li>
+                  <li><i class="ri-check-double-line"></i> The distribution plot of solar energy values in our dataset shows a roughly bell-shaped and symmetric distribution with a peak around the middle of the x-axis.</li>
+                  <li><i class="ri-check-double-line"></i> Understanding the distribution of solar energy is crucial for making informed decisions about energy usage, infrastructure planning, and assessing environmental impact.</li>
+                </ul>
+                <p>
+                  The plot shows the distribution of solar energy values in the dataset, with the x-axis representing the range of solar energy values and the y-axis representing the frequency of those values. The curve drawn over the histogram-like bars represents the estimated density of the distribution, giving us a smooth approximation of the shape of the distribution.</p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <!-- <img src="static/img/features-1.png" alt="" class="img-fluid"> -->
+                {{SE_plot}}
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>A distribution plot generated using Python's Seaborn library and a dataset on wind energy.</h3>
+                <p>
+                  The plot shows the distribution of wind energy values in the dataset, with the x-axis representing the range of wind energy values and the y-axis representing the frequency of those values. The curve drawn over the histogram-like bars represents the estimated density of the distribution, giving us a smooth approximation of the shape of the distribution.
+                </p>
+                <!-- <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p> -->
+                <ul>
+                  <li><i class="ri-check-double-line"></i>Wind energy resources are unevenly distributed across the globe, with some regions experiencing significantly higher wind speeds than others. </li>
+                  <li><i class="ri-check-double-line"></i> Topography and surface features can significantly impact wind speed and direction, making it difficult to predict wind energy potential in a given location.</li>
+                  <li><i class="ri-check-double-line"></i> Wind turbines are typically located in areas with consistent and relatively strong winds to maximize power generation.</li>
+                  <li><i class="ri-check-double-line"></i>Advances in technology, such as taller turbines and more efficient blades, are allowing wind energy to be harnessed in a wider range of locations with lower wind speeds.</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <!-- <img src="static/img/features-2.png" alt="" class="img-fluid"> -->
+                {{WE_plot}}
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-3">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>A distribution plot generated using Python's Seaborn library and a dataset on wind velocity.</h3>
+                <p>
+                  The plot shows the distribution of wind speed at 2m height values in the dataset, with the x-axis representing the range of wind speed values and the y-axis representing the frequency of those values. The curve drawn over the histogram-like bars represents the estimated density of the distribution, giving us a smooth approximation of the shape of the distribution.
+                </p>
+                <!-- <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p> -->
+                <ul>
+                  <li><i class="ri-check-double-line"></i> Wind speed at 2 meters is an important parameter for wind energy assessments and predictions.</li>
+                  <li><i class="ri-check-double-line"></i>It is influenced by various factors such as temperature, pressure, humidity, and surface roughness..</li>
+                  <li><i class="ri-check-double-line"></i> Wind speed at 2 meters is typically higher than at higher elevations, but it can be affected by local topography and surface characteristics.</li>
+                </ul>
+                <p class="fst-italic">
+                  <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p> -->
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <!-- <img src="static/img/features-3.png" alt="" class="img-fluid"> -->
+                {{WS2M_plot}}
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-4">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>A distribution plot generated using Python's Seaborn library and a dataset on wind velocity.</h3>
+                <p>
+                  The plot shows the distribution of wind speed at 10m height values in the dataset, with the x-axis representing the range of wind speed values and the y-axis representing the frequency of those values. The curve drawn over the histogram-like bars represents the estimated density of the distribution, giving us a smooth approximation of the shape of the distribution.
+                </p>
+                <!-- <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p> -->
+                <ul>
+                  <li><i class="ri-check-double-line"></i> Wind speed at 10 meters is typically higher than at 2 meters, due to less surface drag from trees, buildings, and other obstacles.</li>
+                  <li><i class="ri-check-double-line"></i>Wind speed at 10 meters is affected by terrain, with higher wind speeds occurring in areas with fewer surface roughness features.</li>
+                  <li><i class="ri-check-double-line"></i> Wind speed at 10 meters can vary over time, with seasonal and diurnal patterns, as well as changes due to weather events.</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <!-- <img src="static/img/features-4.png" alt="" class="img-fluid"> -->
+                {{WS10M_plot}}
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+     <!-- ======= Features Section ======= -->
+     <section id="features" class="features">
+      <div class="container" data-aos="fade-up">
+
+        <ul class="nav nav-tabs row d-flex">
+          <li class="nav-item col-3">
+            <a class="nav-link active show" data-bs-toggle="tab" href="#tab-5">
+              <i class="ri-gps-line"></i>
+              <h4 class="d-none d-lg-block">Wind Velocity at fifty meters distribution curve</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-6">
+              <i class="ri-body-scan-line"></i>
+              <h4 class="d-none d-lg-block">Clear Sky Surface Shortwave Downward Irradiance Distribution curve</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-7">
+              <i class="ri-sun-line"></i>
+              <h4 class="d-none d-lg-block">Past 8 years Solar Energy data</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-8">
+              <i class="ri-store-line"></i>
+              <h4 class="d-none d-lg-block">Past 8 years Wind Energy data</h4>
+            </a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane active show" id="tab-5">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>A distribution plot generated using Python's Seaborn library and a dataset on wind velocity.</h3>
+                <!-- <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p> -->
+                <ul>
+                  <li><i class="ri-check-double-line"></i> Wind speeds at 50 meters can be affected by the height of the surrounding terrain, such as hills or buildings.</li>
+                  <li><i class="ri-check-double-line"></i> Wind speeds at 50 meters may also be impacted by atmospheric conditions, such as temperature and pressure.</li>
+                  <li><i class="ri-check-double-line"></i> Wind resource assessments for potential wind energy sites typically include measurements of wind speeds at 50 meters.</li>
+                </ul>
+                <p>
+                  The plot shows the distribution of wind speed at 50 meters values in the dataset, with the x-axis representing the range of wind speed values and the y-axis representing the frequency of those values. The curve drawn over the histogram-like bars represents the estimated density of the distribution, giving us a smooth approximation of the shape of the distribution.
+                </p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <!-- <img src="static/img/features-1.png" alt="" class="img-fluid"> -->
+                {{WS50M_plot}}
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-6">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>A distribution plot generated using Python's Seaborn library and a dataset on surface radiation</h3>
+                <p>
+                  The plot shows the distribution of surface radiation values in the dataset, with the x-axis representing the range of surface radiation values and the y-axis representing the frequency of those values. The curve drawn over the histogram-like bars represents the estimated density of the distribution, giving us a smooth approximation of the shape of the distribution.
+                </p>
+                <!-- <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p> -->
+                <ul>
+                  <li><i class="ri-check-double-line"></i>Solar radiation refers to the electromagnetic radiation emitted by the sun that reaches the earth's surface.</li>
+                  <li><i class="ri-check-double-line"></i> It is measured in units of energy per unit area per unit time, typically in watts per square meter (W/m²).</li>
+                  <li><i class="ri-check-double-line"></i>Solar radiation is affected by several factors, including latitude, season, time of day, and weather conditions.</li>
+                  <li><i class="ri-check-double-line"></i>The amount of solar radiation received at a particular location can be predicted using models that take into account these factors, as well as the physical properties of the atmosphere and the earth's surface.</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <!-- <img src="static/img/features-2.png" alt="" class="img-fluid"> -->
+                {{SKY_plot}}
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-7">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>A time series plot generated using Python's library and a dataset on Solar Energy</h3>
+                <p>
+                  The plot shows the distribution of solar energy values in the dataset, with the x-axis representing the time and the y-axis representing the solar energy values.
+                </p>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> The amount of solar energy that can be produced depends on several factors such as the location of the solar panels, the angle and orientation of the panels, the amount of sunlight in the area, and the efficiency of the solar panels.</li>
+                  <li><i class="ri-check-double-line"></i>With advancements in technology, the cost of solar energy production has decreased significantly over the years, making it a more affordable option for many.</li>
+                  <li><i class="ri-check-double-line"></i> solar energy values play a critical role in the adoption and promotion of clean energy solutions, and the monitoring and analysis of solar energy data can provide valuable insights into the performance and potential of solar energy systems.</li>
+                </ul>
+                <!-- <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p> -->
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <!-- <img src="static/img/features-3.png" alt="" class="img-fluid"> -->
+                {{SEtime_plot}}
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-8">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>A time series plot generated using Python's library and a dataset on Wind Energy</h3>
+                <p>
+                  The plot shows the distribution of wind energy values in the dataset, with the x-axis representing the time and the y-axis representing the wind energy values.
+                </p>
+                <!-- <p class="fst-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+                </p> -->
+                <ul>
+                  <li><i class="ri-check-double-line"></i> The amount of wind energy that can be generated depends on a number of factors, including the wind speed, the height of the wind turbine, and the efficiency of the turbine.</li>
+                  <li><i class="ri-check-double-line"></i> Wind energy has a number of benefits over other forms of energy. It is renewable, meaning it will not run out like fossil fuels. It is also a clean source of energy, producing no greenhouse gas emissions or air pollution.</li>
+                  <li><i class="ri-check-double-line"></i> Wind energy is a renewable source of energy that is generated by harnessing the power of wind. Wind turbines are used to convert the kinetic energy of the wind into electrical energy, which can be used to power homes, businesses, and other applications.</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <!-- <img src="static/img/features-4.png" alt="" class="img-fluid"> -->
+                {{WEtime_plot}}
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+    <!-- ======= Clients Section ======= -->
+    <!-- <section id="clients" class="clients">
+      <div class="container" data-aos="zoom-in">
+        <div class="section-title">
+          <h2>Energy Predictions</h2>
+          <p>Check our Energy Predictions for some cities</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex  align-items-center justify-content-center">
+            <img src="static/img/clients/download.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex  align-items-center justify-content-center">
+            <img src="static/img/clients/download2.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex  align-items-center justify-content-center">
+            <img src="static/img/clients/download3.png" class="img-fluid" alt="">
+          </div> -->
+
+          <!-- <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="static/img/clients/client-4.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="static/img/clients/client-5.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="static/img/clients/client-6.png" class="img-fluid" alt="">
+          </div> -->
+
+        <!-- </div>
+
+      </div> 
+    </section> -->
+    <!--  <!== End Clients Section ==> -->
+
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Energy Predictions</h2>
+          <p>Check our Energy Predictions for some cities</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">Solar</li>
+              <li data-filter=".filter-card">Wind</li>
+              <!-- <li data-filter=".filter-web">China</li> -->
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="static/img/clients/kolkatasolar.png" class="img-fluid" alt="">
+            <!-- <div class="portfolio-info">
+              <h4>Kolkata</h4>
+              <p>App</p>
+              <a href="static/img/clients/download.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div> -->
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="static/img/clients/kolkatawind.png" class="img-fluid" alt="">
+            <!-- <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <a href="static/img/clients/download.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div> -->
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="static/img/clients/hyderabadsolar.png" class="img-fluid" alt="">
+            <!-- <div class="portfolio-info">
+              <h4>App 2</h4>
+              <p>App</p>
+              <a href="static/img/clients/download.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div> -->
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="static/img/clients/Chennaisolar.png" class="img-fluid" alt="">
+            <!-- <div class="portfolio-info">
+              <h4>App 2</h4>
+              <p>App</p>
+              <a href="static/img/clients/download.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div> -->
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="static/img/clients/hyderabadwind.png" class="img-fluid" alt="">
+            <!-- <div class="portfolio-info">
+              <h4>Card 2</h4>
+              <p>Card</p>
+              <a href="static/img/clients/download.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div> -->
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="static/img/clients/Mumbaisolar.png" class="img-fluid" alt="">
+            <!-- <div class="portfolio-info">
+              <h4>Web 2</h4>
+              <p>Web</p>
+              <a href="static/img/clients/download.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div> -->
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="static/img/clients/Delhisolar.png" class="img-fluid" alt="">
+            <!-- <div class="portfolio-info">
+              <h4>App 3</h4>
+              <p>App</p>
+              <a href="static/img/clients/download.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div> -->
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="static/img/clients/Mumbaiwind.png" class="img-fluid" alt="">
+            <!-- <div class="portfolio-info">
+              <h4>Card 1</h4>
+              <p>Card</p>
+              <a href="static/img/clients/download.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div> -->
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="static/img/clients/Delhiwind.png" class="img-fluid" alt="">
+            <!-- <div class="portfolio-info">
+              <h4>Card 3</h4>
+              <p>Card</p>
+              <a href="static/img/clients/download.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div> -->
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="static/img/clients/Chennaiwind.png" class="img-fluid" alt="">
+            <!-- <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <a href="static/img/clients/download.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div> -->
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="static/img/clients/Ahmedabadsolar.png" class="img-fluid" alt="">
+            <!-- <div class="portfolio-info">
+              <h4>App 3</h4>
+              <p>App</p>
+              <a href="static/img/clients/download.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div> -->
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="static/img/clients/Ahmedabadwind.png" class="img-fluid" alt="">
+            <!-- <div class="portfolio-info">
+              <h4>Card 1</h4>
+              <p>Card</p>
+              <a href="static/img/clients/download.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div> -->
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Choose your plan section starts -->
+
+     <section class="choose-plan">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Choose Your Plan</h2>
+          <p>Select a plan that suits your needs and budget</p>
+        </div>
+        <!-- <h2 class="section-title">Choose Your Plan</h2> -->
+        <!-- <p class="section-description">Select a plan that suits your needs and budget</p> -->
+        <div class="pricing-table">
+          <div class="pricing-card">
+            <h3>Basic</h3>
+            <div class="price">₹100<span>/location</span></div>
+            <ul>
+              <li><i class="ri-check-double-line"></i>Last 10 years data</li>
+              <li><i class="ri-check-double-line"></i>Energy Predictions</li>
+              <li><i class="ri-check-double-line"></i>Basic Support</li>
+            </ul>
+            <a href="#" class="btn-select">Select Plan</a>
+          </div>
+          <div class="pricing-card recommended">
+            <div class="recommended-label">Recommended</div>
+            <h3>Standard</h3>
+            <div class="price">₹250<span>/location</span></div>
+            <ul>
+              <li><i class="ri-check-double-line"></i>Last 10 years data</li>
+              <li><i class="ri-check-double-line"></i>Energy Predictions</li>
+              <li><i class="ri-check-double-line"></i>Resources for installation with brief report</li>
+            </ul>
+            <a href="#" class="btn-select">Select Plan</a>
+          </div>
+          <!-- <div class="pricing-card">
+            <h3>Premium</h3>
+            <div class="price">₹50<span>/month</span></div>
+            <ul>
+              <li>10 Users</li>
+              <li>100GB Storage</li>
+              <li>Premium Support</li>
+            </ul>
+            <a href="#" class="btn-select">Select Plan</a>
+          </div> -->
+        </div>
+        
+      </div>
+    </section> 
+        
+      <!-- Choose your plan section ends -->
+
+  
+
+  </main><!-- End #main -->
+ 
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <!-- <div class="footer-top"> -->
+      <!-- <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>Dewi</h3>
+              <p>
+                A108 Adam Street <br>
+                NY 535022, USA<br><br>
+                <strong>Phone:</strong> +1 5589 55488 55<br>
+                <strong>Email:</strong> info@example.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div> -->
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>anveShaN</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/dewi-free-multi-purpose-html-template/ -->
+        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="static/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="static/vendor/aos/aos.js"></script>
+  <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="static/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="static/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="static/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="static/js/main.js"></script>
+
+</body>
+
+</html>
